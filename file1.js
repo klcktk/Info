@@ -20,7 +20,27 @@ btn.addEventListener("submit", (event) => {
     input == "Rama murari reddy" ||
     input == "rama murari reddy" ||
     input == "Praveen" ||
-    input == "praveen"
+    input == "praveen" ||
+    input == "P.pavankumar" ||
+    input == "p.PavanKumar" ||
+    input == "p.pavankumar" ||
+    input == "p.pavan kumar" ||
+    input == "p.Pavan Kumar" ||
+    input == "P.pavan kumar" ||
+     input == "a.RamaMurariReddy" ||
+    input == "a.ramamurarireddy" ||
+    input == "a.Rama Murari Reddy" ||
+    input == "a.Rama murari reddy" ||
+    input == "a.rama murari reddy" ||
+     input == "A.RamaMurariReddy" ||
+    input == "A.ramamurarireddy" ||
+    input == "A.Rama Murari Reddy" ||
+    input == "A.Rama murari reddy" ||
+    input == "A.rama murari reddy" ||
+    input == "B.Praveen" ||
+    input == "B.praveen" ||
+     input == "b.Praveen" ||
+    input == "b.praveen" ||
   ) {
     const out =
       "Hello " +
@@ -33,3 +53,4 @@ btn.addEventListener("submit", (event) => {
     input.value = "";
   }
 });
+
