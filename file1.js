@@ -40,7 +40,12 @@ btn.addEventListener("submit", (event) => {
     input == "B.Praveen" ||
     input == "B.praveen" ||
      input == "b.Praveen" ||
-    input == "b.praveen" 
+    input == "b.praveen" ||
+    input == "Bathala sai praveen" ||
+     input == "Bathala Sai Praveen" ||
+     input == "Bathala Sai praveen" ||
+     input == "bathala Sai Praveen" ||
+     input == "bathala sai praveen" 
   ) {
     const out =
       "Hello " +
@@ -53,5 +58,6 @@ btn.addEventListener("submit", (event) => {
     input.value = "";
   }
 });
+
 
 
