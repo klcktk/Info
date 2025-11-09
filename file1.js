@@ -40,7 +40,7 @@ btn.addEventListener("submit", (event) => {
     input == "B.Praveen" ||
     input == "B.praveen" ||
      input == "b.Praveen" ||
-    input == "b.praveen" ||
+    input == "b.praveen" 
   ) {
     const out =
       "Hello " +
@@ -53,4 +53,5 @@ btn.addEventListener("submit", (event) => {
     input.value = "";
   }
 });
+
 
